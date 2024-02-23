@@ -1,0 +1,143 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+.logo {
+    height: 160px;
+    width: 140px;
+    position: absolute;
+    left: 280px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(5, 22, 36);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(34, 114, 194);
+    font-size: 20px;
+}
+
+div li.sign {
+    height: 30px;
+    padding: 3px;
+    border: 1px solid red;
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    font-size: 30px;
+}
+
+div.right {
+    position: absolute;
+    right: 30px;
+}
+
+body {
+
+    min-height: 100vh;
+    background-image: url(login.png.png);
+
+    background-size: cover;
+    color: aliceblue;
+}
+
+form {
+    position: absolute;
+    top: 270px;
+    left: 600px;
+    border: 4px solid rgb(29, 133, 48);
+}
+
+form {
+    width: 360px;
+    height: 300px;
+    background-color: rgb(3, 3, 3);
+    background: transparent;
+    backdrop-filter: blur(40px);
+}
+
+.wrapper h1 {
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    width: 350px;
+}
+
+input.username {
+    width: 250px;
+}
+
+div.box {
+    margin: 25px;
+}
+
+button.btn {
+    width: 350px;
+}
+
+p {
+    margin: 5px;
+}
+
+p a {
+    color: rgb(56, 208, 94);
+    text-decoration: dashed;
+    margin: 5px;
+}
+
+label a {
+    text-decoration: none;
+    color: rgb(56, 208, 94);
+}
+
+div.google {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    gap: 80px;
+    margin: 10px;
+}
+
+div.google a {
+    color: aliceblue;
+
+}
